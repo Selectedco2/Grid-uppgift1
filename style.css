@@ -1,0 +1,13 @@
+.griddy
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr ;
+
+}
+
+img
+{
+    height: 150px;
+    width: auto;
+
+}
