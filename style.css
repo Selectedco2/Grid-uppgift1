@@ -1,13 +1,40 @@
-.griddy
+body
 {
     display: grid;
-    grid-template-columns: 1fr 5fr ;
+    grid-template-columns: 10%  84%;
+    grid-template-rows: 1fr 2fr 0.5fr;
+    gap: 10px;
+    background-color: lightgoldenrodyellow;
+}
 
+
+
+main, div, footer, nav   
+{
+    border: black solid 1px;
 }
 
 img
 {
-    height: 150px;
-    width: auto;
+    height: 153 px;
+    width: 182px;
+    border: black solid 2px;
 
+}
+
+
+h2,h3
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.artikel
+{
+    border: black solid 2px;
 }
