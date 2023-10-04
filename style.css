@@ -7,17 +7,15 @@ body
     background-color: lightgoldenrodyellow;
 }
 
-
-
-main, div, footer, nav   
+main, div, nav   
 {
     border: black solid 1px;
 }
 
-img
+.dino
 {
-    height: 153 px;
-    width: 182px;
+    height: 176px;
+    width: 185px;
     border: black solid 2px;
 
 }
@@ -27,14 +25,32 @@ h2,h3
 {
     text-align: center;
 }
+
 h1
 {
     text-align: center;
-    padding-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .artikel
 {
-    border: black solid 2px;
+    border: black solid 1px;
+    margin-left: 10px;
+}
+
+p
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: black solid 1px;
+}
+.header
+{
+    padding-top: 50px;  
 }
